@@ -3,16 +3,26 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+* As a cyclist I want to get the fastest route from my location to my destination so that I can arrive somewhere on time
+
+* As a cyclist I'd like to be able to take scenic routes to get to my destination so that I am able to enjoy the sights of the land
+* As a cyclist id like to be able to get options in my routes so that I have options in case one route is compromised
+* As a cyclist I want to be able to use cycle paths for my safety
+* As a cyclis I want to see my location so that I know how far along the route I am.
+
+<!---TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
+    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).--->
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+* Cyclist
+* 
+* 
+<!---TODO: List and describe the actors/users for this product.--->
 
 ### Use Cases
-TODO: Describe each use case (one per team member).
+<!---TODO: Describe each use case (one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
+    Summarise these using the use-case template below.--->
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
