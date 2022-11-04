@@ -14,9 +14,9 @@
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).--->
 
 ### Actors
-* Cyclist
-* 
-* 
+* **Cyclist:** the main user of the application, they will be our core subject, they must ride a bike for pleasure, work or travel.
+
+* **System admin:** responsible for the maintanence and upkeep of the mapp and website.
 <!---TODO: List and describe the actors/users for this product.--->
 
 ### Use Cases
