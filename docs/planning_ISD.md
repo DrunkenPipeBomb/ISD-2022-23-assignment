@@ -41,3 +41,4 @@ Cycle Bristol is a map of the city of Bristol that has been created by cyclists 
 the site will have an interactive map which shows users how to manuver around the bristol area by bike and will highlight some key areas they may wish to visit areas can also be searched for, it will also display road names and public transport links as they may impact a cyclists journey.
 
 ![Insert your Context Diagram Here](images/context.png)
+to be added in by roland [upload is left]
