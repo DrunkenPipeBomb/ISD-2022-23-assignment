@@ -1,6 +1,6 @@
-# TODO: PROJECT NAME HERE
+# Project: Cycle Bristol
 
-TODO: Brief outline of your project describing the dataset
+This application will allow cyclists to travel around the bristol area using bristol opendata.
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
