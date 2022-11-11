@@ -24,7 +24,39 @@
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.--->
 
-| USE-CASE ID: UC1 | T | 
+
+<!---Roland---> 
+| USE-CASE ID: UC1 | Determine Fastest route to location | 
+| -------------------------------------- | ------------------- |
+| **Description** | find the path that is closest to a straight line to the location |
+| **Actors** | Cyclists |
+| **Assumptions** | None</td></tr>
+| **Steps** | 1)Get the location of the user 2)get the destination of the user 3) query database for routes 4)display how  |
+| **Variations** | 1)get the begining location as an input of the user if location services unavaliable |
+| **Non-functional** | 1)list one route as the main route. |
+| **Issues** | none |
+<!---Connor--->
+| USE-CASE ID: UC2 | get the location data of the user | 
+| -------------------------------------- | ------------------- |
+| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
+| **Actors** | TODO: List of actors involved in use case |
+| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
+| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+<!---Michelle--->
+| USE-CASE ID: UC3 | Display secondary and tertiary more scenic routes | 
+| -------------------------------------- | ------------------- |
+| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
+| **Actors** | TODO: List of actors involved in use case |
+| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
+| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+<!---Ibrahim--->
+| USE-CASE ID: UC4 | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
@@ -34,37 +66,20 @@
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
-| -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+<!-- TODO: Your Use-Case diagram should include all use-cases. -->
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
-| -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
-
-TODO: Your Use-Case diagram should include all use-cases.
-
-![Insert your Use-Case Diagram Here](images/Use_case_diagram_ISD.png)
+![Insert your Use-Case Diagram Here](images/Use_case_diagram_ISD-RD.png)
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
+
+<!---TODO: create a list of functional requirements. 
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
-
+   Indicate which UC the requirement comes from.--->
+* **FR1)** The system must get user location or user inputed start location if location services off.
+* **FR2)** The system must query for straightest route to end location using the cycle network database
+* **FR3)** The system must display route to end location using map displayed
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
