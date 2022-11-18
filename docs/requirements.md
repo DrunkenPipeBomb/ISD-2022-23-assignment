@@ -82,7 +82,13 @@
 * **FR3)** The system must display route to end location using map displayed
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-
-Indicate which UC the requirement comes from.
+### Maintability
+* **NFR1**: The software development process will use unit-testing. (all use-cases)
+### Efficiency
+* **NFR2**: The software client will be lightweiht such that it loads in under 1 second on a typical broadband line (>1 mbps).(all use cases)
+### Portability
+* **NFR3**: The software must be written so as to be cross-platform, running on IOS (>v10) and Android (>v5).
+### Accesebility 
+* **NFR4**: The software must have a screen-reader for being unable to view the content. (must read out the screen content).
+### Extensibility
+* **NFR5**: The software shall be extenable. must have a lightweight software framework which allows changes 
