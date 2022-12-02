@@ -38,13 +38,13 @@
 <!---Conner--->
 | USE-CASE ID: UC2 | Get the location data of the user | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Be able to give live location data on user with Wi-Fi connection. |
-| **Actors** | TODO: Cyclist |
-| **Assumptions** | TODO: Must have location enabled and access to the internet</td></tr>
-| **Steps** | TODO: Cyclist enables access to their current locational data -> Mobile device's geolocational data is accessed -> Data sent to webpage/server -> Location marked on map. |
-| **Variations** | TODO: None. |
-| **Non-functional** | TODO: None. |
-| **Issues** | TODO: How will this data be protected? |
+| **Description** | Be able to give live location data on user with Wi-Fi connection. |
+| **Actors** | Cyclist |
+| **Assumptions** | Must have location enabled and access to the internet</td></tr>
+| **Steps** | Cyclist enables access to their current locational data -> Mobile device's geolocational data is accessed -> Data sent to webpage/server -> Location marked on map. |
+| **Variations** | None. |
+| **Non-functional** | None. |
+| **Issues** | How will this data be protected? |
 <!---Michelle--->
 | USE-CASE ID: UC3 | Display secondary and tertiary more scenic routes | 
 | -------------------------------------- | ------------------- |
