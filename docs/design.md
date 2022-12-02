@@ -10,7 +10,7 @@ This diagram displays the steps taken in Use case 1 in a sequence diagram form.
 
 ###Use Case 2: Locational Data
 ![UC2_LocationalData](https://user-images.githubusercontent.com/70335031/205282542-ecda8b7d-cbf3-4bb1-90f1-58cce7ac218f.PNG)
-This is a sequence diagram dipicting how the process of getting the users geolocational data occurs over the different layers.
+*This is a sequence diagram dipicting how the process of getting the users geolocational data occurs over the different layers.
 
 
 
