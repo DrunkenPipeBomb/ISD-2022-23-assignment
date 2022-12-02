@@ -48,10 +48,10 @@
 <!---Michelle--->
 | USE-CASE ID: UC3 | Display secondary and tertiary more scenic routes | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Description** |Users have multiple/more scenic options on routes to take. |
+| **Actors** |Cyclist |
+| **Assumptions** | Users want scenic routes or look for specific cycle paths
+| **Steps** | live location -> nearest secondary routes -> options:  1. Cycle Paths 2. Sceneric Routes. -> Select Route -> Direction  |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
