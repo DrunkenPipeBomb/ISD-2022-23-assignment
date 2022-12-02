@@ -35,16 +35,16 @@
 | **Variations** | 1)get the begining location as an input of the user if location services unavaliable |
 | **Non-functional** | 1)list one route as the main route. |
 | **Issues** | none |
-<!---Connor--->
-| USE-CASE ID: UC2 | get the location data of the user | 
+<!---Conner--->
+| USE-CASE ID: UC2 | Get the location data of the user | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Be able to give live location data on user with Wi-Fi connection. |
+| **Actors** | Cyclist |
+| **Assumptions** | Must have location enabled and access to the internet</td></tr>
+| **Steps** | Cyclist enables access to their current locational data -> Mobile device's geolocational data is accessed -> Data sent to webpage/server -> Location marked on map. |
+| **Variations** | None. |
+| **Non-functional** | None. |
+| **Issues** | How will this data be protected? |
 <!---Michelle--->
 | USE-CASE ID: UC3 | Display secondary and tertiary more scenic routes | 
 | -------------------------------------- | ------------------- |
