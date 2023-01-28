@@ -51,9 +51,11 @@
 | **Description** |Users have the option to choose more scenic routes. this can include a destination but is not necessery. this option can be used as just a day out cycling around Bristol with great views. 
 | **Actors** |Cyclist| 
 | **Assumptions** | Users want to choose a scenic route to either a destination or just a nice scenic route to look at.
-| **Steps** | Option 1 :Live Location -> Scenic Routes -> Select Route -> Directions.Option 2: -> Cycle Paths -> Sceneric Routes. -> Select Route -> Direction  |
+| **Steps** | Option 1 :Live Location -> Scenic Routes -> Select Route -> Directions.
+Option 2: -> Cycle Paths -> Sceneric Routes. -> Select Route -> Direction  |
 | **Variations** | None. |
-| **Non-functional** |- Maintainability: this feature requires a constant maintaince as possible road works might be in place and routes might not be accessable.-Realibility: This feature might insure when destination choosen with a scenic route it is not only scenic but efficient and safe. |
+| **Non-functional** |- Maintainability: this feature requires a constant maintaince as possible road works might be in place and routes might not be accessable.
+-Realibility: This feature might insure when destination choosen with a scenic route it is not only scenic but efficient and safe. |
 | **Issues** |a scenic route not found to an specific destination.
  <!---If an user wishes to choose more scenic route to a specific destination. an option might not always be available to them.--->
   |
