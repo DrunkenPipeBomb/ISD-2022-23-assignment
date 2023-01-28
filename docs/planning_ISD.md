@@ -22,7 +22,7 @@ this feature will allow users to find the routes with lowest incline to their de
 
 
 ## Business Case
-//will people use it? is it financially viable? how do you implement it? 
+<!--will people use it? is it financially viable? how do you implement it? --->
 
 ### Problem statement
 
