@@ -26,7 +26,7 @@
 
 
 <!---Roland---> 
-| USE-CASE ID: UC1 | Determine Fastest route to location | 
+| USE-CASE ID: Roland | Determine Fastest route to location | 
 | -------------------------------------- | ------------------- |
 | **Description** | find the path that is closest to a straight line to the location |
 | **Actors** | Cyclists |
@@ -36,7 +36,7 @@
 | **Non-functional** | 1)list one route as the main route. |
 | **Issues** | none |
 <!---Conner--->
-| USE-CASE ID: UC2 | Get the location data of the user | 
+| USE-CASE ID: Conner | Get the location data of the user | 
 | -------------------------------------- | ------------------- |
 | **Description** | Be able to give live location data on user with Wi-Fi connection. |
 | **Actors** | Cyclist |
@@ -46,17 +46,19 @@
 | **Non-functional** | None. |
 | **Issues** | How will this data be protected? |
 <!---Michelle--->
-| USE-CASE ID: UC3 | Display secondary and tertiary more scenic routes | 
+| USE-CASE ID: Michelle | Display scenic routes | 
 | -------------------------------------- | ------------------- |
-| **Description** |Users have multiple/more scenic options on routes to take. |
-| **Actors** |Cyclist |
-| **Assumptions** | Users want scenic routes or look for specific cycle paths
-| **Steps** | live location -> nearest secondary routes -> options:  1. Cycle Paths 2. Sceneric Routes. -> Select Route -> Direction  |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** |Users have the option to choose more scenic routes. this can include a destination but is not necessery. this option can be used as just a day out cycling around Bristol with great views. 
+| **Actors** |Cyclist| 
+| **Assumptions** | Users want to choose a scenic route to either a destination or just a nice scenic route to look at.
+| **Steps** | Option 1 :Live Location -> Scenic Routes -> Select Route -> Directions Option 2: -> Cycle Paths -> Sceneric Routes. -> Select Route -> Direction  |
+| **Variations** | None. |
+| **Non-functional** |- Maintainability: this feature requires a constant maintaince as possible road works might be in place and routes might not be accessable.|
+| - Realibility: This feature might insure when destination choosen with a scenic route it is not only scenic but efficient and safe. |
+| **Issues** |a scenic route not found to an specific destination. <!-- If an user wishes to choose more scenic route to a specific destination. an option might not always be available to them.--->
+  |
 <!---Ibrahim--->
-| USE-CASE ID: UC4 | TODO: USE-CASE NAME | 
+| USE-CASE ID: Ibrahim | Cycle paths routes | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |

@@ -1,23 +1,39 @@
 # Project Proposal
+A cycle website app that will allow users to find the cycle paths, fastest route , and more scienic routes to their desired locations.
+ 
+this app will also include public transport links and places of interest.
+<!---route with the lowest inclines--->
+
+Find cycle paths:
+This feature will allow users to prioritise routes with as many cycle paths as possible to get to their desired location. This aims to enhance the safety of users, particularly families with children who desire safer routes.
+
+Fastest Route:
+This feature will allow users to find the fastest and most efficient route to their destination. 
+
+Scenic Routes:
+This feature will find scenic routes around Bristol for cyclists who wish to explore the nicer views that the city has to offer, as well as the more rural countryside routes. This will include displaying key view points that cyclists may wish to stop at along the route.
+
+Places of Interest: 
+This feature will display places of interest near to user's location, e.g museums, galleries, monuments.
+<!--- 
+Lowest Inclanes:
+this feature will allow users to find the routes with lowest incline to their destination
+ -->
+
 
 ## Business Case
+//will people use it? is it financially viable? how do you implement it? 
 
 ### Problem statement
-Cycle Bristol is a map of the city of Bristol that has been created by cyclists for cyclists. It contains all the information you need to get around town efficiently and safely, including:
 
-- Street names
-
-- Cycle routes around Bristol
-
-- Public transport links
-
-- places of intrest
 
 
 ### Business benefits
-* Cyclists will be able to manouver around bristol more efficiently 
-* Cyclists will be able to find paths that circumvent traffic and alert them of oncoming traffic
-* locations of intrest will be highlighted to users
+Cyclists will have the multiple options how to navigate around Bristol. 
+This app will not only allow users to navigate around Bristol, it will also allow them to choose beetwen safer only cycle paths route or also a scenic routes which will be made to make the ride more pleasent and scenic for people who want to enjoy their ride.  
+Users have the options to view places of interest around Bristol, which will benefit cyclist not only from Bristol but also cyclist visiting Bristol. 
+This will also include an alert of potentional oncoming traffic. 
+
 
 
 ### Options Considered
