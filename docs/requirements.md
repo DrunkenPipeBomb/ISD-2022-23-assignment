@@ -58,15 +58,16 @@
  <!---If an user wishes to choose more scenic route to a specific destination. an option might not always be available to them.--->
   |
 <!---Ibrahim--->
-| USE-CASE ID: Ibrahim | Cycle paths routes | 
+| USE-CASE ID: Ibrahim | Display nearest bike stores and bike repair shops | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Users can navigate to bike stores and repair shops nearby if they have encounter any inconveniences or if they need to purchase a new bike.
+                    The Google Maps API that we will use will help display these stores and their information. |
+| **Actors** | Urban Cyclists |
+| **Assumptions** | They have relevant stores within their city/area |
+| **Steps** | Shops will appear on the map as a bike symbol or a repair symbol. The user will have the option to tap on symbols which will display the option navigate to it and display the shops name and perhaps their rating? |
+| **Variations** | None. |
+| **Non-functional** | Display at least one shop even if it is far from where they are. |
+| **Issues** | None. |
 
 <!-- TODO: Your Use-Case diagram should include all use-cases. -->
 
