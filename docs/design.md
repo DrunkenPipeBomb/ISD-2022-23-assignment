@@ -6,7 +6,7 @@ Describe it in terms of interactions between the components introduces above, an
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/Sequence_diagram_UC1-RD.png)
 
-This diagram displays the steps taken in Use case 1 in a sequence diagram form.
+This diagram displays the steps taken in Use case 1 in a sequence diagram form. it starts with the users input of the destination
 
 Use Case 2: Locational Data
 ![UC2_LocationalData](https://user-images.githubusercontent.com/70335031/205282542-ecda8b7d-cbf3-4bb1-90f1-58cce7ac218f.PNG)

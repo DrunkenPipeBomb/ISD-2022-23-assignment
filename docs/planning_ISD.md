@@ -1,15 +1,12 @@
 # Project Proposal
-A cycle website app that will allow users to find the cycle paths, fastest route , and more scienic routes to their desired locations.
+A cycle website app that will allow users to find the  fastest or more scienic routes to their desired locations.
  
-this app will also include public transport links and places of interest.
+This app will also include places of interest.
 
 <!---route with the lowest inclines--->
 
-Find cycle paths:
-This feature will allow users to prioritise routes with as many cycle paths as possible to get to their desired location. This aims to enhance the safety of users, particularly families with children who desire safer routes.
-
 Fastest Route:
-This feature will allow users to find the fastest and most efficient route to their destination. 
+This feature will allow users to find the fastest route to their destination to get there in the shortest possible time, it will however not take traffic and road closures into consideration. 
 
 Scenic Routes:
 This feature will find scenic routes around Bristol for cyclists who wish to explore the nicer views that the city has to offer, as well as the more rural countryside routes. This will include displaying key view points that cyclists may wish to stop at along the route.
