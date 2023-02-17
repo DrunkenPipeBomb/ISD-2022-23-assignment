@@ -60,8 +60,7 @@
 <!---Ibrahim--->
 | USE-CASE ID: Ibrahim | Display nearest bike stores and bike repair shops | 
 | -------------------------------------- | ------------------- |
-| **Description** | Users can navigate to bike stores and repair shops nearby if they have encounter any inconveniences or if they need to purchase a new bike.
-                    The Google Maps API that we will use will help display these stores and their information. |
+| **Description** | Users can navigate to bike stores and repair shops nearby if they have encounter any inconveniences or if they need to purchase a new bike. The Google Maps API that we will use will help display these stores and their information. |
 | **Actors** | Urban Cyclists |
 | **Assumptions** | They have relevant stores within their city/area |
 | **Steps** | Shops will appear on the map as a bike symbol or a repair symbol. The user will have the option to tap on symbols which will display the option navigate to it and display the shops name and perhaps their rating? |
