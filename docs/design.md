@@ -1,6 +1,8 @@
 # Design
 
 ## Behavioural design
+Place for all our designs including wire frames and sequence diagrams. Label your diagrams with which use case they are for along with your initials and follow up with a short description of what your design is depicting.
+
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
 
@@ -8,9 +10,9 @@ Describe it in terms of interactions between the components introduces above, an
 
 This diagram displays the steps taken in Use case 1 in a sequence diagram form. it starts with the users input of the destination
 
-Use Case 2: Locational Data
+Use Case 2: Locational Data [C.A]
 ![UC2_LocationalData](https://user-images.githubusercontent.com/70335031/205282542-ecda8b7d-cbf3-4bb1-90f1-58cce7ac218f.PNG)
-This is a sequence diagram dipicting how the process of getting the users geolocational data occurs over the different layers.
+This is a sequence diagram dipicting how the process of getting the users geolocational data occurs over the different layers. 
 
 
 

@@ -8,7 +8,7 @@
 * As a cyclist I'd like to be able to take scenic routes to get to my destination so that I am able to enjoy the sights of the land
 * As a cyclist id like to be able to get options in my routes so that I have options in case one route is compromised
 * As a cyclist I want to be able to use cycle paths for my safety
-* As a cyclis I want to see my location so that I know how far along the route I am.
+* As a cyclist I want to see my location so that I know how far along the route I am.
 
 <!---TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).--->
