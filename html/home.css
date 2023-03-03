@@ -1,0 +1,141 @@
+body{
+   background-color: #5F9E6A;
+   box-sizing: border-box;
+}
+
+/* nav bar css*/
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin: 2px;
+   
+}  /*logo css to fit in the nav bar*/
+.topnav img {
+    width: 55px;
+    padding-left: 16px;
+    margin-top: 4px;
+    position: absolute ;
+}
+
+
+/* nav bar text*/
+    .topnav a {
+       
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 50px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 0px;
+      }
+      .topnav a:hover {
+        background-color:#00BA6C;
+        color: white;
+      }
+      /* search button*/
+      .topnav input[type=text] {
+        float:left;
+        padding: 6px;
+        border: none;
+        margin-top: 6px;
+        margin-right: 160px;
+        margin-left: 80px;
+        font-size: 17px;
+       
+      }
+      /* paragraphs*/
+      p {
+        text-align: center;
+        margin-top: 5px;
+        padding-top: 30px;
+
+      }
+      /* css for all buttons on home page*/
+      button {
+        background-color: white;
+        color: black;
+        border: 2px solid #00BA6C;
+        margin: 12px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+      button:hover{
+        background-color:#00BA6C;
+        color: white;
+      }
+      /* this is to create a side bar on the page. !!might change!! */
+      .sidebar_buttons {
+        background-color: white;
+        width: 40%;
+        margin: 5px;
+        
+        
+        
+      }
+  
+    /* side bar css */
+      .scenic{
+        background-color: white;
+        width: 40%;
+        margin: 5px;
+        
+        
+      }
+      /* scenic route list*/
+       ul{
+        list-style-type: none;
+        width: 500px
+        
+      }
+      h3 {
+        font: bold 22   px/1.5 Helvetica, Verdana, sans-serif;
+      }
+      li img {
+        float: left;
+        margin: 0 6px 0 0;
+        width: 145px;
+        height: 120px;
+      }
+      li p {
+        font:  16px/1.5 Georgia, Times New Roman, serif;
+        text-align: left;
+        
+      }
+     
+       
+      li {
+        padding: 4px;
+        overflow: auto;
+      }
+       
+      li:hover {
+        background: #eee;
+        cursor: pointer;
+      }
+      /* side bar for fastest route*/
+      .route{
+        background-color: white;
+        width: 40%;
+        margin: 5px;
+    
+      }
+     h2{
+        font-size: 16px;
+        padding: 10px;
+     }
+     /* google maps (to be removed)*/
+     iframe{
+        padding-left: 10px;
+     }
+    /* side bar css */
+    .stores{
+        background-color: white;
+        width: 40%;
+        margin: 5px;
+
+    }
+
+    
+  
