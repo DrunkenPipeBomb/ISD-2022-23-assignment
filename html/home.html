@@ -5,42 +5,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
+
+<div class="grid-container">
     <!--navigation bar-->
-    <div class="topnav">
+    <div class="top-nav">
     <div class="logo"><img src="image/logo3.png"></div>
-        <input type="text" placeholder="Search..">
+        
         <!--i am hoping to add icons next to it but cant find out how-->
-        <a href="home.html"></i> Home</a>
-        <a href="about.html"></i>About</a>
-        <a href="direction.html">Directions</a>
+        <a href="direction.html">DIRECTION</a>
+        <a href="about.html"></i>ABOUT</a>
+        <a href="home.html"></i> HOME</a>
         
-        
-        
+    
       </div>
 
-</header>
 
 
 <!-- section for the side previews-->
-<section>
-<div class="sidebar_buttons">
-    <!--this is temporary  just to see how it looks until we have proper location-->
-    <p><b> Currect Location</b></p>
-    <!--buttons-->
-<button>Scenic Routes</button>
-<button>Fastest Route</button>
-<button>Places Of Interest</button>
 
-</div>
-</section>
-<section>
-    <!--scenic route side-->
-    <div class="scenic">
-        <!-- temporary until we found our own scenic routes-->
-        <h2>Scenic Routes</h2>
+<div class="side-page">
+    
+    <!--buttons-->
+    <button>Scenic Routes
+        
+    </button>
+    <button>Fastest Route
+        
+    </button>
+    <button>Places of Interest
+        
+    </button>
+
+    
+        <!-- temporary until we found our own scenic routes -->
+       <h2>Scenic Routes</h2>
         <ul>
             <!--lists of scenic options-->
             <li>
@@ -65,39 +68,33 @@
                 <p>Lorem ipsum dolor sit amet. Et assumenda eius ea voluptatem facere ea harum distinctio eos praesentium autem </p>
             </li>
         </ul>
- 
-    </div>
-</section>
-<section>
-    <!--fastest route section-->
-        <div class="route">
-            <h2>Fastest Route</h2>
-            <!--click on the map will take the user to the fastest route page-->
-            <!--Temporary map-->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.56064455892!2d-2.554729184974421!3d51.50292957963435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fa5b4e5f827%3A0xfef76b37b45ecccc!2sFrenchay%20Campus!5e0!3m2!1sen!2suk!4v1677787718105!5m2!1sen!2suk" width="500" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-    </section>
-</section>
-
-<section>
+        
     <!--places of interest section-->
-    <div class="stores">
-    <h2>Places of interest</h2>
-   <button>Bike Pumps</button>
-   <button>Bike Stores</button>
+    <div class="place-interest">
+
+        <h2>Places of interest</h2>
+
+        <button>Bike Pumps</button>
+
+        <button>Bike Stores</button>
+    </div>
+
+
+
 </div>
-</section>
+<!-- this section is for the map to go.-->
 
 
-<!-- this section is for the map to go. can not figure out how to make it float left next to the "sidebar"-->
-<aside>
-
-<div class="map">
+<div class="side-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.560462573234!2d-2.554729184889044!3d51.50293291885178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fa5b4e5f827%3A0xfef76b37b45ecccc!2sFrenchay%20Campus!5e0!3m2!1sen!2suk!4v1677849647439!5m2!1sen!2suk" width="600" height="800" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
 </div>
-</aside>
+
+<div class="page-footer">
+
+</div>
 
 </body>
-
+</div>
+</div>
 </html>

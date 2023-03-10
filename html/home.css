@@ -1,16 +1,54 @@
-body{
-   background-color: #5F9E6A;
-   box-sizing: border-box;
+/* #2ED975   #72D975*/
+/* grid css */
+.grid-container{
+  display: grid;
+  /* grid areas*/
+  grid-template-areas: 
+  'tn tn tn tn '
+  'sp sm sm sm'
+  'pf pf pf pf ';
+}
+/*grid areas*/
+/* nav bar*/
+.top-nav{
+  grid-area: tn;
+
+  overflow: hidden;
+  background-color: transparent;
+  margin: 2px;
+}
+/* left side of the page*/
+.side-page{
+  grid-area: sp;
+  margin: 5px;
+  padding-top: 80px;
+  
+}
+/*right side of the page */
+.side-map{
+  grid-area: sm;
+  margin: 5px;
+ 
+}
+/* footer*/
+.page-footer{
+  grid-area: ft;
 }
 
-/* nav bar css*/
-.topnav {
-    overflow: hidden;
-    background-color: whitesmoke;
-    margin: 2px;
-   
-}  /*logo css to fit in the nav bar*/
-.topnav img {
+/* body css*/
+body{
+  background-image: url(image/background.png);
+  background-repeat: no-repeat;
+   box-sizing: border-box;
+}
+/*sets all heading and paragraphs to same colour */
+body p,h2, h3 {
+  color: #eee;
+  
+}
+  
+ /*logo css to fit in the nav bar*/
+.top-nav img {
     width: 55px;
     padding-left: 16px;
     margin-top: 4px;
@@ -19,31 +57,26 @@ body{
 
 
 /* nav bar text*/
-    .topnav a {
+    .top-nav a {
        
         display: inline-block;
-        color: black;
+        color: #B8B7B4;
         text-align: center;
+        /* comes up as error but actually works */
+        float: right;
         padding: 14px 50px 10px;
         text-decoration: none;
         font-size: 17px;
         margin-left: 0px;
-      }
-      .topnav a:hover {
-        background-color:#00BA6C;
-        color: white;
-      }
-      /* search button*/
-      .topnav input[type=text] {
-        float:left;
-        padding: 6px;
-        border: none;
-        margin-top: 6px;
-        margin-right: 160px;
-        margin-left: 80px;
-        font-size: 17px;
        
+
+
       }
+      .top-nav a:hover {
+        color:#2ED975;
+        
+      }
+      
       /* paragraphs*/
       p {
         text-align: center;
@@ -53,45 +86,32 @@ body{
       }
       /* css for all buttons on home page*/
       button {
-        background-color: white;
-        color: black;
-        border: 2px solid #00BA6C;
-        margin: 12px;
-        margin-top: 30px;
-        margin-left: 30px;
-        margin-bottom: 30px;
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.8;
+        transition: 0.6s;
+        height: 80px;
       }
       button:hover{
-        background-color:#00BA6C;
-        color: white;
-      }
-      /* this is to create a side bar on the page. !!might change!! */
-      .sidebar_buttons {
-        background-color: white;
-        width: 40%;
-        margin: 5px;
-        
-        
-        
+        background-color: #FEFF00;
+        opacity: 1;
+        color: black;
       }
   
-    /* side bar css */
-      .scenic{
-        background-color: white;
-        width: 40%;
-        margin: 5px;
-        
-        
-      }
+
       /* scenic route list*/
        ul{
         list-style-type: none;
         width: 500px
         
       }
-      h3 {
-        font: bold 22   px/1.5 Helvetica, Verdana, sans-serif;
-      }
+      
+    
       li img {
         float: left;
         margin: 0 6px 0 0;
@@ -99,7 +119,6 @@ body{
         height: 120px;
       }
       li p {
-        font:  16px/1.5 Georgia, Times New Roman, serif;
         text-align: left;
         
       }
@@ -111,31 +130,24 @@ body{
       }
        
       li:hover {
-        background: #eee;
+        background: #FFCE04;
         cursor: pointer;
       }
-      /* side bar for fastest route*/
-      .route{
-        background-color: white;
-        width: 40%;
-        margin: 5px;
-    
-      }
+
      h2{
         font-size: 16px;
         padding: 10px;
      }
      /* google maps (to be removed)*/
      iframe{
-        padding-left: 10px;
+       padding-top: 80px;
+        min-height: 100%;
+        min-width: 100%;
+        /* makes the map dark mode*/
+        filter:   invert(92%);
      }
-    /* side bar css */
-    .stores{
-        background-color: white;
-        width: 40%;
-        margin: 5px;
-
-    }
+   
+   
 
     
   
