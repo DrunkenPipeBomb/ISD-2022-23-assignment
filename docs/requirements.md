@@ -26,7 +26,7 @@
 
 
 <!---Roland---> 
-| USE-CASE ID: Roland | Determine Fastest route to location | 
+| USE-CASE ID: Roland/1| Determine Fastest route to location | 
 | -------------------------------------- | ------------------- |
 | **Description** | find the path that is closest to a straight line to the location |
 | **Actors** | Cyclists |
@@ -36,7 +36,7 @@
 | **Non-functional** | 1)list one route as the main route. |
 | **Issues** | none |
 <!---Conner--->
-| USE-CASE ID: Conner | Get the location data of the user | 
+| USE-CASE ID: Conner/2 | Get the location data of the user | 
 | -------------------------------------- | ------------------- |
 | **Description** | Be able to give live location data on user with Wi-Fi connection. |
 | **Actors** | Cyclist |
@@ -46,7 +46,7 @@
 | **Non-functional** | None. |
 | **Issues** | How will this data be protected? |
 <!---Michelle--->
-| USE-CASE ID: Michelle | Display scenic routes | 
+| USE-CASE ID: Michelle/3 | Display scenic routes | 
 | -------------------------------------- | ------------------- |
 | **Description** |Users have the option to choose more scenic routes. this can include a destination but is not necessery. this option can be used as just a day out cycling around Bristol with great views. 
 | **Actors** |Cyclist| 
@@ -58,7 +58,7 @@
  <!---If an user wishes to choose more scenic route to a specific destination. an option might not always be available to them.--->
   |
 <!---Ibrahim--->
-| USE-CASE ID: Ibrahim | Display nearest bike stores and bike repair shops | 
+| USE-CASE ID: Ibrahim/4 | Display nearest bike stores and bike repair shops | 
 | -------------------------------------- | ------------------- |
 | **Description** | Users can navigate to bike stores and repair shops nearby if they have encounter any inconveniences or if they need to purchase a new bike. The Google Maps API that we will use will help display these stores and their information. |
 | **Actors** | Urban Cyclists |

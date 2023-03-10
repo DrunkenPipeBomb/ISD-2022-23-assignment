@@ -23,5 +23,5 @@ This is a sequence diagram dipicting how the process of getting the users geoloc
 ## User Interface design
 TODO: Specify and develop a user interface mockup using a wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
-TODO: repeat as necessary
+![Insert your wireframe screenshots for each use-case here](images/Cycle_Bristol_wireframe.png)
+This context diagram though small shows 3 of the four use cases (use case 1, 3, 4) the second one cannot be properly shown as it causes a location request popup which varies from computer to computer. The homepage is the top left diagram and shows how other pages and the use cases lead into one another.
