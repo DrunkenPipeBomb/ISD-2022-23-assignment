@@ -1,12 +1,12 @@
 # Design
-This page houses our wireframe
+This page houses our wireframes and displays our use case behavioural design
 ## Behavioural design
 <!---Place for all our designs including wire frames and sequence diagrams. Label your diagrams with which use case they are for along with your initials and follow up with a short description of what your design is depicting.
 
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.--->
 
-
+Use Case 1: Fastest Route [R.D]
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/Sequence_diagram_UC1-RD.png)
 
 This diagram displays the steps taken in Use case 1 in a sequence diagram form. it starts with the users input of the destination and the granting of location permitions to be used by the server. the server then will route the fastest route to the destination by quereying the database and using any cycle paths from the database. which will display a route to the desired destination to the client. 
@@ -22,7 +22,6 @@ This is a sequence diagram dipicting how the process of getting the users geoloc
 
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using a wireframe.
 
 ![Insert your wireframe screenshots for each use-case here](images/Cycle_Bristol_wireframe.png)
 

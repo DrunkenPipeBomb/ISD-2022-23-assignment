@@ -8,3 +8,10 @@ This application will allow cyclists to travel around the bristol area using bri
 4. [Implementation](docs/implementation.md)
 5. [Testing](docs/testing.md)
 6. [Deployment](docs/deployment.md)
+7. [Website] here when live
+
+**Use case accountability:**
+<br>UC1:Roland
+<br>UC2:Connor
+<br>UC3:Michelle
+<br>UC4:Ibrahim

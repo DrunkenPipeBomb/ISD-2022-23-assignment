@@ -1,5 +1,5 @@
 # Requirements
-
+This page containsthe following : user needs which we used to find out what our clients may want out of our website, use cases that aim to tackle the needs outlined in the 'user needs', those responsible for use cases so that accountability is reached on who has and hasnt done their set work, a diagram that depicts our use cases as well as functional and non functional requirements to know what the software must do.
 ## User Needs
 
 ### User stories
@@ -31,8 +31,8 @@
 | **Description** | find the path that is closest to a straight line to the location |
 | **Actors** | Cyclists |
 | **Assumptions** | None</td></tr>
-| **Steps** | 1)Get the location of the user 2)get the destination of the user 3) query database for routes 4)display how  |
-| **Variations** | 1)get the begining location as an input of the user if location services unavaliable |
+| **Steps** | 1) Get the location of the user 2) Get the destination of the user 3) Query database for routes 4) Display the route  |
+| **Variations** | 1) get the begining location as an input of the user if location services unavaliable |
 | **Non-functional** | 1)list one route as the main route. |
 | **Issues** | none |
 <!---Conner--->
@@ -69,9 +69,10 @@
 | **Issues** | None. |
 
 <!-- TODO: Your Use-Case diagram should include all use-cases. -->
-
+UPDATE NEEDED
+<br> **Use case diagram**
 ![Insert your Use-Case Diagram Here](images/Use_case_diagram_ISD-RD.png)
-
+This diagram depicts all potential use cases we have considered it has been made to identify the interactions between our system and its actors
 ## Software Requirements Specification
 ### Functional requirements
 

@@ -14,3 +14,16 @@ connection.connect(function(err){
         console.log("Connected as: ", connection.threadID)
     }
 });
+
+var QUERY = "SELECT * from 'cycle-network'";
+
+connection.query(QUERY, function(err, rows, fields) {
+    if (err) throw err;
+    for (var i=0; i<rows.length; i++) {
+        // change these attributes to those in your database
+        console.log(rows[i].OBJECTID, rows[i].Name);
+    }
+});
+
+connection.end();
+console.log("finished");
