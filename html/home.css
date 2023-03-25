@@ -1,5 +1,10 @@
 /* #2ED975   #72D975*/
 /* grid css */
+body{
+  background-image: url(image/background.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
 .grid-container{
   display: grid;
   /* grid areas*/
@@ -10,136 +15,146 @@
 }
 /*grid areas*/
 /* nav bar*/
-.top-nav{
-  grid-area: tn;
+  .top-nav{
+    grid-area: tn;
 
-  overflow: hidden;
-  background-color: transparent;
-  margin: 2px;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 2px;
 }
-/* left side of the page*/
-.side-page{
-  grid-area: sp;
-  margin: 5px;
-  padding-top: 80px;
-  
-}
-/*right side of the page */
-.side-map{
-  grid-area: sm;
-  margin: 5px;
- 
-}
-/* footer*/
-.page-footer{
-  grid-area: ft;
-}
-
-/* body css*/
-body{
-  background-image: url(image/background.png);
-  background-repeat: no-repeat;
-   box-sizing: border-box;
-}
-/*sets all heading and paragraphs to same colour */
-body p,h2, h3 {
-  color: #eee;
-  
-}
-  
  /*logo css to fit in the nav bar*/
-.top-nav img {
+ .top-nav img {
     width: 55px;
     padding-left: 16px;
     margin-top: 4px;
     position: absolute ;
 }
+  .top-nav a {
+
+      display: inline-block;
+      color: #B8B7B4;
+      text-align: center;
+  /* comes up as error but actually works */
+      float: right;
+      padding: 14px 50px 10px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: 0px;
+ 
+
+
+}
+  .top-nav a:hover {
+      color:#2ED975;
+  
+}
+/* left side of the page*/
+  .side-page{
+      grid-area: sp;
+      margin: 5px;
+      padding-top: 80px;
+  
+}
+/*right side of the page */
+  .side-map{
+      grid-area: sm;
+      margin: 5px;
+ 
+}
+/* footer*/
+  .page-footer{
+      grid-area: ft;
+}
+
+/* body css*/
+
+/*sets all heading and paragraphs to same colour */
+  body p,h2, h3 {
+      color: #eee;
+  
+}
+  
+
+/* nav bar heading to figure out later
+.top-nav h2{
+  width: 160px;
+  height: 120px;
+  padding-left: 160px;
+  margin-top: 2px;
+  position: absolute ;
+} *?
 
 
 /* nav bar text*/
-    .top-nav a {
-       
-        display: inline-block;
-        color: #B8B7B4;
-        text-align: center;
-        /* comes up as error but actually works */
-        float: right;
-        padding: 14px 50px 10px;
-        text-decoration: none;
-        font-size: 17px;
-        margin-left: 0px;
-       
 
-
-      }
-      .top-nav a:hover {
-        color:#2ED975;
-        
-      }
       
       /* paragraphs*/
-      p {
-        text-align: center;
-        margin-top: 5px;
-        padding-top: 30px;
+  p {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 30px;
 
       }
       /* css for all buttons on home page*/
-      button {
-        background-color: black;
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-align: center;
-        font-size: 16px;
-        margin: 4px 2px;
-        opacity: 0.8;
-        transition: 0.6s;
-        height: 80px;
+  .side-page button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.6s;
+    height: 80px;
       }
-      button:hover{
-        background-color: #FEFF00;
-        opacity: 1;
-        color: black;
+  .side-page button:hover{
+    background-color: #FEFF00;
+    opacity: 1;
+    color: black;
       }
+    /* link text css*/
+  .side-page a {
+    color: white;
+    text-decoration: none;
+  }
   
 
       /* scenic route list*/
-       ul{
-        list-style-type: none;
-        width: 500px
+  ul{
+    list-style-type: none;
+     width: 500px
         
       }
       
     
-      li img {
+  li img {
         float: left;
         margin: 0 6px 0 0;
         width: 145px;
         height: 120px;
       }
-      li p {
+  li p {
         text-align: left;
         
       }
      
-       
-      li {
+  li {
         padding: 4px;
         overflow: auto;
       }
        
-      li:hover {
+  li:hover {
         background: #FFCE04;
         cursor: pointer;
       }
 
-     h2{
+   h2{
         font-size: 16px;
         padding: 10px;
      }
      /* google maps (to be removed)*/
-     iframe{
+  iframe{
        padding-top: 80px;
         min-height: 100%;
         min-width: 100%;

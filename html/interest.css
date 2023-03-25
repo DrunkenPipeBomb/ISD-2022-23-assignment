@@ -1,0 +1,134 @@
+/* #2ED975   #72D975*/
+/* grid css */
+body{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  .grid-container{
+        display: grid;
+        /* grid areas*/
+        grid-template-areas: 
+        'tn tn tn tn '
+        'up up up2 up2 '
+        'mp3 mp3 mp3 mp3'
+    ;
+  }
+  /*grid areas*/
+  /* nav bar*/
+    .top-nav{
+        grid-area: tn;
+        overflow: hidden;
+        background-color: transparent;
+        margin: 2px;
+  }
+   /*logo css to fit in the nav bar*/
+    .top-nav img {
+        width: 55px;
+        padding-left: 16px;
+        margin-top: 4px;
+        position: absolute ;
+  }
+    .top-nav a {
+  
+        display: inline-block;
+        color: #B8B7B4;
+        text-align: center;
+    /* comes up as error but actually works */
+        float: right;
+        padding: 14px 50px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 0px;
+   
+  
+  
+  }
+    .top-nav a:hover {
+        color:#2ED975;
+    
+  } /* grids */
+    .up-page {
+        grid-area: up;
+    }
+    .up-page2{
+        grid-area: up2;
+    }
+
+    .map3{
+        grid-area: mp3;
+    }
+/* buttons css*/
+    .up-page button, .up-page2 button{
+        background-color: black;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 40px;
+        margin: 60px;
+        opacity: 95%;
+        transition: 0.6s;
+        height: 120px;
+        width: 50%;
+    
+}
+/* sets up-page section background colour*/
+    .up-page, .up-page2{
+        background-color:#143D16;
+        opacity: 80%;
+}
+/* dropdown content css*/
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width: 48%;
+  }
+  
+  /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color:  #FFCE04;
+        color: black;
+    
+}
+  
+  /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+  }
+  /* change the size of headings in both grids*/
+    .up-page h1, .up-page2 h1{
+        font-size: 16px;
+}
+/* change links text in both grids*/
+    .up-page a, .up-page2 a{
+        color: white;
+        text-decoration: none;
+}
+
+
+    iframe{
+        padding-top: 80px;
+        min-height: 100%;
+        min-width: 100%;
+     /* makes the map dark mode*/
+        filter:   invert(92%);
+        opacity: 95%;
+  }
