@@ -19,7 +19,7 @@ Use Case 2: Locational Data [C.A]
 This is a sequence diagram dipicting how the process of getting the users geolocational data occurs over the different layers. Once location ppermitions are accepted gps data will be taken by the client which will locate them on the server and append the information to the database to refer back to. geolocation data will be returned to the client which will then be displayed on the map
 
 Use Case 3: Scenic Routes [M.C]
-Scenic Route User Case: (docs\images\ScenicRouteUC.png)
+Scenic Route User Case: (images/ScenicRouteUC.png)
 The image above is a user case diagram explaining the steps between the user and the website. 
 
 Sequence Diagram 3: Scenic Route [M.C]
