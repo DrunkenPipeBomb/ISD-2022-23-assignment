@@ -19,5 +19,13 @@ function setupMap(center) {
         center: center, // starting position [lng, lat]
         zoom: 15 // starting zoom
         });
-}
 
+    const nav = new mapboxgl.NavigationControl()
+    map.addControl(nav)
+
+    var directions = new MapboxDirections({
+        accessToken: mapboxgl.accessToken
+    })
+
+    map.addControl(directions, "top-left")
+}
