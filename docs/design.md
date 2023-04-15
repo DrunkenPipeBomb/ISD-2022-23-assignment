@@ -31,7 +31,7 @@ The image above is a sequence diagram that display interaction between the user 
 
 
 
-## User Interface design
+## User Interface design [M.C , R.D ]
 
 ![Insert your wireframe screenshots for each use-case here](images/Cycle_Bristol_wireframe.png)
 
