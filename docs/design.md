@@ -44,3 +44,5 @@ UC2: Whenever a map is accessed a location prompt will be sent out by the site w
 UC3: From the homepage when a scenic route of the checkmark has been selected you will be taken to a page with landmarks or scenic areas that can be picked at which point itll use it as a middle destination.
 
 UC4: When the "places of intrest" checkmark is ticked then you will be taken to the 
+
+<!--- by Michelle and Roland--->
