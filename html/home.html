@@ -8,6 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css"
+    />
+    <script src="script.js" defer></script>   
+
 </head>
 <body>
 
@@ -17,7 +27,7 @@
     <div class="logo"><img src="image/logo3.png"></div>
         <!--<h2>BIKE GO</h2>-->
         <!--i am hoping to add icons next to it but cant find out how-->
-        <a href="direction.html">DIRECTION</a>
+        <a href="directions.html">DIRECTION</a>
         <a href="about.html"></i>ABOUT</a>
         <a href="home.html"></i> HOME</a>
         
@@ -86,7 +96,7 @@
 
 
 <div class="side-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.560462573234!2d-2.554729184889044!3d51.50293291885178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fa5b4e5f827%3A0xfef76b37b45ecccc!2sFrenchay%20Campus!5e0!3m2!1sen!2suk!4v1677849647439!5m2!1sen!2suk" width="600" height="800" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div id='map' ></div>
     
 </div>
 

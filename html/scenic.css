@@ -1,7 +1,7 @@
 /* #2ED975   #72D975*/
 /* grid css */
 body{
-    background-image: url(image/background.png);
+    background-image: url(image/background-gb.png);
     background-repeat: no-repeat;
     box-sizing: border-box;
 }
@@ -14,12 +14,14 @@ body p,h2, h3 {
     /* grid areas*/
     grid-template-areas: 
     'tn tn tn tn '
-    'sb sb mp1 mp1 '
-    'sb sb mp1 mp1 '
+    'hd hd hd hd '
+    'b1 b1 b2 b2 '
+    
 
   }
   /*grid areas*/
-  /* nav bar*/
+
+    /* nav bar*/
     .top-nav{
       grid-area: tn;
   
@@ -55,16 +57,20 @@ body p,h2, h3 {
         color:#2ED975;
     
   }
-/* sets grid*/
-    .sidebar {
-        grid-area: sb;
-        margin-top: 36px;
-        
+  .heading{
+    grid-area: hd;
+    padding: 45px;
   }
-  /* sets grid*/
-    .map1{
-        grid-area: mp1;
-    }
+  .buttons1{
+    grid-area: b1;
+    padding: 36px;
+  }
+  .buttons2{
+    grid-area: b2;
+    padding: 36px;
+  }
+
+
 
     /* scenic route list*/
 
