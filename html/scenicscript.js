@@ -3,6 +3,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZHJua3BpcGVib21iIiwiYSI6ImNsZnI2a3ZodTA1Z2kze
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {enableHighAccuracy: true})
 
+//declare variable 
+var directions;
+
 function successLocation(position){
     console.log(position)
     setupMap([position.coords.longitude, position.coords.latitude])
@@ -23,12 +26,24 @@ function setupMap(center) {
     const nav = new mapboxgl.NavigationControl()
     map.addControl(nav)
 
-    var directions = new MapboxDirections({
+    directions = new MapboxDirections({
         accessToken: mapboxgl.accessToken
     })
 
     map.addControl(directions, "top-left")
 }
+
+function setDestination(lng, lat) {
+    // Set the destination of the map to the specified coordinates
+    directions.setDestination([lng, lat]);
+    // Zoom in to the destination location
+    map.flyTo({ center: [lng, lat], zoom: 15 });
+}
+
+// Assign setDestination to the window object to make it global
+window.setDestination = setDestination;
+
+
 
 
 //function setDestination(){ 
