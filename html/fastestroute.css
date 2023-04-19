@@ -11,15 +11,18 @@ body{
     grid-template-areas: 
     'tn tn tn tn'
     'mp2 mp2 mp2 mp2'
+    'ft ft ft ft'
     
   }
   /*grid areas*/
   /* nav bar*/
+
     .top-nav{
       grid-area: tn;
       overflow: hidden;
       background-color: transparent;
       margin: 2px;
+      padding-bottom: 50px; 
   }
    /*logo css to fit in the nav bar*/
    .top-nav img {
@@ -50,13 +53,17 @@ body{
 
     .map2{
         grid-area: mp2;
+        padding: 10px;
+        padding-left: 30px;
     }
-    /* temporary */
-    iframe{
-        padding: 20px 12px 12px 12px;
-         min-height: 100%;
-         min-width: 100%;
-         /* makes the map dark mode*/
-         filter:   invert(92%);
-         opacity: 80%;
+    footer{
+      grid-area: ft;
+      padding: 20px;
+    }
+  
+   #map{
+        height: 100vh;
+        width: 200vh;
+         filter: invert(92%);
+         opacity: 95%;
       }

@@ -59,11 +59,19 @@ body{
   .side-map{
       grid-area: sm;
       margin: 5px;
+      padding-top: 80px;
  
+}
+#map{
+    height: 150vh;
+    width: 55vw;
+    filter:   invert(82%);
+    opacity: 95%;
 }
 /* footer*/
   .page-footer{
       grid-area: ft;
+      padding: 10px;
 }
 
 /* body css*/
@@ -126,6 +134,12 @@ body{
      width: 500px
         
       }
+  ul h3{
+    font-size: 22px;
+  }
+  ul p{
+    font-size: 14px;
+  }
       
     
   li img {
@@ -154,13 +168,7 @@ body{
         padding: 10px;
      }
      /* google maps (to be removed)*/
-  iframe{
-       padding-top: 80px;
-        min-height: 100%;
-        min-width: 100%;
-        /* makes the map dark mode*/
-        filter:   invert(92%);
-     }
+
    
    
 

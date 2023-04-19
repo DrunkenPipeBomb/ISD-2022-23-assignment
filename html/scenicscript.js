@@ -46,12 +46,6 @@ window.setDestination = setDestination;
 
 
 
-//function setDestination(){ 
-    //var Destination = { lat: 51.452011, lng: -2.635600 };
-    //directions.setDestination(Destination);
-//}
-
-
 
 
     
