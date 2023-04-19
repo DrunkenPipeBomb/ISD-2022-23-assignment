@@ -16,10 +16,20 @@ body p,h2, h3 {
     'tn tn tn tn '
     'hd hd hd hd '
     'b1 b1 b2 b2 '
+    'mp mp mp mp'
     
 
   }
   /*grid areas*/
+  .map1{
+    grid-area: mp;
+    padding-top: 18px;
+    padding-left: 20px;
+  }
+  #map{height:  85vh;
+  width: 95vw;
+  filter:   invert(82%);
+  }
 
     /* nav bar*/
     .top-nav{
