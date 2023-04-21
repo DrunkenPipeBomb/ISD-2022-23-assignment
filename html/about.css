@@ -79,10 +79,12 @@ body{
   .middletext h1, p {
       color: white;
       isolation: isolate;
+      padding-left: 50px;
 }
   .middletext h1{
       font-size: 48px;
       text-align: center;
+      padding-top: 30px;
 
 }
 
