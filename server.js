@@ -36,3 +36,6 @@ app.get('/fastestroute', (req, res) => {
     res.render('pages/fastestroute');
 });
 
+app.get('/directions', (req, res) => {
+    res.render('pages/directions');
+});
