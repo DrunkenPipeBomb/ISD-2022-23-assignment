@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/7d5a58b8d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="scenic.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css"/>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <script src="scenicscript.js" defer></script>   
+</head>
+<body>
+
+<div class="grid-container">
+    <!--navigation bar-->
+    <div class="top-nav">
+    <div class="logo"><img src="logo3.png"></div>
+        <!--<h2>BIKE GO</h2>-->
+        <!--i am hoping to add icons next to it but cant find out how-->
+        <a href="directions">DIRECTION</a>
+        <a href="about"></i>ABOUT</a>
+        <a href="home"></i> HOME</a>
+        
+    
+      </div>
+      <div class="heading">
+      <h2>Scenic Routes</h2>
+    </div>
+<div class="buttons1">
+   
+    <ul>
+        <!--lists of scenic options-->
+        <li onclick="setDestination(-2.635600, 51.452011)"> 
+            <!--click on individual image will take user to the direction page with the direction to the chosen place-->
+            <img src="leigh woods.jpg">
+            <h3>Leigh Woods</h3>
+          
+            <p>This scenic route is considered an easy and smooth bike ride - suitable for peaceful family rides. Walkers, dogs and children are also expected so please ensure to ride cautiously.</p>
+        </li>
+        
+        <li onclick="setDestination(-2.59665, 51.45523)">
+            <img src="stample-hill.jpg">
+            <h3>Stample Hill Tunnel</h3>
+            <p>This scenic route is considered a very accessible bike ride suitable for all skills levels as the route is mostly paved for a smooth ride. Some parts of the ride cycling is NOT permitted meaning you will have to dismount and push your bike for 0.25 miles.</p>
+        </li>
+    </ul>
+    </div>
+        
+        
+        <div class="buttons2">
+            <ul>
+            <li onclick="setDestination(-2.3596963, 51.3813864)">
+                <img src="bath.jpg">
+                <h3>Circus Tunnel</h3>
+                <p>This scenic route is considered a tranquil bike ride due to it being traffic free and the majority of the trip taking place on a relatively flat cycle path route going from Fishponds to Bristol all the way until Bath.</p> 
+            </li>
+
+            <li onclick="setDestination(-2.6263995, 51.4566504)">
+            <img src="clifton.jpg">
+            <h3>Clifton Observatory</h3>
+            <p>This scenic route is mostly paved and suitable for all skills levels and after visiting the observatory you can stop and get some ice cream! Some parts of the ride cycling is NOT permitted meaning you will have to dismount and push your bike for only 0.26 miles in total.</p>
+        </li>
+        
+    </ul>
+</div>
+
+<div class="map1">
+    <p>Please choose your <b>STARTING PLACE</b> first and make sure to <b>SELECT Cycling!</b></p>
+    <div id='map' ></div>
+</div> 
