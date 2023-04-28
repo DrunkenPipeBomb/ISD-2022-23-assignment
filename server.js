@@ -31,3 +31,8 @@ app.get('/about', (req, res) => {
 app.get('/scenic', (req, res) => {
     res.render('pages/scenic');
 });
+
+app.get('/fastestroute', (req, res) => {
+    res.render('pages/fastestroute');
+});
+
