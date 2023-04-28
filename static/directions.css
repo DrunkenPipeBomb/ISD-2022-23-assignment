@@ -1,0 +1,72 @@
+body{
+    background-image: url(/background-gb.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+    
+  }
+  .grid-container{
+    display: grid;
+    /* grid areas*/
+    grid-template-areas: 
+    'tn tn tn tn '
+    'mp mp mp mp'
+    'pf pf pf pf  '
+   
+  }
+
+.top-nav{
+    grid-area: tn;
+
+    overflow: hidden;
+    background-color: transparent;
+    margin: 2px;
+    padding-bottom: 50px;
+}
+ /*logo css to fit in the nav bar*/
+ .top-nav img {
+    width: 55px;
+    padding-left: 16px;
+    margin-top: 4px;
+    position: absolute ;
+}
+  .top-nav a {
+
+      display: inline-block;
+      color: #B8B7B4;
+      text-align: center;
+  /* comes up as error but actually works */
+      float: right;
+      padding: 14px 50px 10px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: 0px;
+ 
+
+
+}
+  .top-nav a:hover {
+      color:#2ED975;
+  
+}
+.map-area{
+    grid-area: mp;
+    padding-top: 18px;
+    padding-left: 60px; /* to fit in the center ish*/
+    
+}
+
+.page-footer{
+    grid-area: pf;
+    padding: 20px;
+    
+}
+
+#map {
+    
+    height: 100vh;
+    width: 90vw;
+    filter:  invert(82%);
+    opacity: 95%;
+   
+}

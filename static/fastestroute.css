@@ -1,0 +1,69 @@
+/* #2ED975   #72D975*/
+/* grid css */
+body{
+    background-image: url(/background-gb.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+.grid-container{
+    display: grid;
+    /* grid areas*/
+    grid-template-areas: 
+    'tn tn tn tn'
+    'mp2 mp2 mp2 mp2'
+    'ft ft ft ft'
+    
+  }
+  /*grid areas*/
+  /* nav bar*/
+
+    .top-nav{
+      grid-area: tn;
+      overflow: hidden;
+      background-color: transparent;
+      margin: 2px;
+      padding-bottom: 50px; 
+  }
+   /*logo css to fit in the nav bar*/
+   .top-nav img {
+      width: 55px;
+      padding-left: 16px;
+      margin-top: 4px;
+      position: absolute ;
+  }
+    .top-nav a {
+  
+        display: inline-block;
+        color: #B8B7B4;
+        text-align: center;
+    /* comes up as error but actually works */
+        float: right;
+        padding: 14px 50px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 0px;
+   
+  
+  
+  }
+    .top-nav a:hover {
+        color:#2ED975;
+    
+  }
+
+    .map2{
+        grid-area: mp2;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    footer{
+      grid-area: ft;
+      padding: 20px;
+    }
+  
+   #map{
+        height: 100vh;
+        width: 200vh;
+         filter: invert(92%);
+         opacity: 95%;
+      }

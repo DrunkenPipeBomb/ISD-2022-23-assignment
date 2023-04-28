@@ -1,0 +1,158 @@
+/* #2ED975   #72D975 darker green: #143D16*/
+/* grid css */
+body{
+  background-image: url(/background-gb.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+.grid-container{
+  display: grid;
+  /* grid areas*/
+  /*if you change the final mt to sm then youll replicate the map overlap*/
+  grid-template-areas: 
+  'tn tn tn tn '
+  'sm mt mt mt'
+  'ab ab ab ab'
+  'ab1 ab1 ab1 ab1';
+}
+/*grid areas*/
+/* body css*/
+
+/* nav bar*/
+  .top-nav{
+      grid-area: tn;
+      overflow: hidden;
+      background-color: transparent;
+      margin: 2px;
+}
+/* nav bar text*/
+  .top-nav a {
+       
+      display: inline-block;
+      color: #B8B7B4;
+      text-align: center;
+      /* comes up as error but actually works */
+      float: right;
+      padding: 14px 50px 10px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: 0px;
+ 
+
+
+}
+  .top-nav a:hover {
+      color:#2ED975;
+  
+}
+ /*logo css to fit in the nav bar*/
+  .top-nav img {
+      width: 55px;
+      padding-left: 16px;
+      margin-top: 4px;
+      position: absolute ;
+}
+
+/* css for the about us text box z index should be kept at highest */
+  .middletext {
+        grid-area: mt;
+        margin-top: 40px;
+        width: 95%;
+        height: 250px;
+    
+        padding: 6px;
+        padding-right: 40px;
+        position: relative;
+   
+    
+}
+/* this is for the background opacity to be lower without effecting the content inside*/
+  .middletext::before {
+      background-color: #143D16;
+      content: "";
+      position: absolute;
+      inset:0;
+      opacity: 80%;
+
+}
+/* to set css for h1 and p only inside the box at the same time*/
+  .middletext h1, p {
+      color: white;
+      isolation: isolate;
+      padding-left: 50px;
+}
+  .middletext h1{
+      font-size: 48px;
+      text-align: center;
+      padding-top: 30px;
+
+}
+
+  .aboutbuttons{
+  grid-area: ab;
+}
+  .aboutbuttons1{
+    grid-area: ab1;
+
+}
+  .aboutbuttons button, .aboutbuttons1 button{
+      background-color: black;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 40px;
+      /*margin to make it at the center of the page*/
+      margin: 60px;
+      opacity: 0.8;
+      transition: 0.6s;
+      height: 150px;
+      width: 40%;
+      
+}
+  .aboutbuttons h1, .aboutbuttons1 h1{
+      font-size: 16px;
+}
+  .aboutbuttons a, .aboutbuttons1 a{
+    color: white;
+    text-decoration: none;
+  }
+  .b1:hover{
+      background-color: #FEFF00;
+      opacity: 1;
+      color: black;
+}
+  .b2:hover{
+      background-color: #e8a40f;
+      opacity: 1;
+      color: black;
+}
+  .b3:hover{
+      background-color: #17e42b;
+      opacity: 1;
+      color: black;
+}
+  .b4:hover{
+      background-color: #f110e2;
+      opacity: 1;
+      color: black;
+}
+
+/* footer*/
+  .page-footer{
+    grid-area: ft;
+}
+
+
+
+  
+
+
+
+
+  
+    
+ 
+
+
+  
