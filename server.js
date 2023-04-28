@@ -27,3 +27,7 @@ app.get('/interest', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('pages/about');
 });
+
+app.get('/scenic', (req, res) => {
+    res.render('pages/scenic');
+});
