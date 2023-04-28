@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/7d5a58b8d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!--navigation bar-->
+      <div class="top-nav">
+        <div class="logo">
+          <img src="logo3.png" />
+        </div>
+        <!--i am hoping to add icons next to it but cant find out how-->
+        <a href="directions">DIRECTION</a>
+        <a href="about"></i>ABOUT</a>
+        <a href="home"></i> HOME</a>
+      </div>
+
+      <!-- section for the side previews-->
+      <div class="side-page">
+        <!--buttons-->
+    <button><a href="scenic">Scenic Route</a></button>
+    <button><a href="fastestroute">Fastest Route</a></button>
+    <button><a href="interest">Places of Interest</a></button>
+
+    <!-- temporary until we found our own scenic routes -->
+    <h2>Scenic Routes</h2>
+    <ul>
+        <!--lists of scenic options-->
+        <li>
+            <!--click on individual image will take user to the direction page with the direction to the chosen place-->
+            <img src="leigh woods.jpg">
+            <h3>Leigh Woods</h3>
+            <p>Located to the west of Bristol's Avon Gorge. Leigh Woods is the largest area of ancient woodland in the city of Bristol</p>
+        </li>
+        <li>
+            <img src="bath.jpg">
+            <h3>Circus Path</h3>
+            <p> Wondeful traffic free cycle path from Bristol to Bath</p>
+        </li>
+        <li>
+            <img src="clifton.jpg">
+            <h3>Clifton Observatory</h3>
+            <p> One of the most iconic sights of the Bristol city since the 19th century.</p>
+        </li>
+        <li>
+            <img src="stample-hill.jpg">
+            <h3>Stample Hill Tunnel</h3>
+            <p>Disused railway that was originally part of the Midland Railway's and Bath Branch Line. The cycle path takes almost half of the width of the tunnel.</p>
+        </li>
+    </ul>
+
+    <!--places of interest section-->
+    <div class="place-interest">
+        <h2>Places of interest</h2>
+        <button>Bike Pumps</button>
+        <button>Bike Stores</button>
+    </div>
+</div>
+
+<!-- this section is for the map to go. -->
+<div class="side-map">
+    <div id='map'></div>
+</div>
+
+<div class="page-footer">
+</div>
+
+<!-- JS scripts -->
+<script src="https://kit.fontawesome.com/7d5a58b8d7.js" crossorigin="anonymous"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

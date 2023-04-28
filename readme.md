@@ -12,6 +12,6 @@ This application will allow cyclists to travel around the bristol area using bri
 
 **Use case accountability:**
 <br>UC1:Roland
-<br>UC2:Connor
+<br>UC2:Conner
 <br>UC3:Michelle
 <br>UC4:Ibrahim
